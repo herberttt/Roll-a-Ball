@@ -14,7 +14,7 @@ public class Playercontroller : MonoBehaviour {
          rb = GetComponent<Rigidbody>();
      }
 
-    void FixesdUpdate()
+    void FixedUpdate()
     {
         float moveHorizontal = Input.GetAxis ( "Horizontal");
        float moveVertical = Input.GetAxis ("Vertical");
